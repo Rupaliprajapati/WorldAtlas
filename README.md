@@ -1,8 +1,45 @@
-# React + Vite
+# World Atlas Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+The **World Atlas Project** is a React-based web application that provides comprehensive information about countries worldwide. Users can browse a list of countries and view detailed data about each country, including its name, population, region, subregion, capital, currencies, languages, and borders.
 
-Currently, two official plugins are available:
+## Features
+- **Country List View:** Displays a list of countries with basic details like name, region, and flag.
+- **Search Functionality:** Allows users to search for specific countries by name.
+- **Detailed Country View:** Provides in-depth information about an individual country, including:
+  - Name
+  - Population
+  - Region and Subregion
+  - Capital
+  - Top-Level Domain (TLD)
+  
+- **Responsive Design:** Optimized for both desktop and mobile devices.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- **Frontend:** React.js, Axios
+- **API:** [REST Countries API](https://restcountries.com/)
+- **Styling:** CSS/SCSS or a component-based library like Material-UI/Bootstrap
+
+## Installation
+
+### Prerequisites
+- Node.js and npm installed on your system
+
+### Steps
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/world-atlas.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd world-atlas
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm start
+   ```
+5. Open your browser and navigate to `http://localhost:5173`.
